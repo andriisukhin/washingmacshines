@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Starter">
+	<meta name="author" content="Admin">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Starter</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Tinos:700" rel="stylesheet">
+	<link rel="icon" href="images/favicon.jpg">
+
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="burger">
+				<div class="burger__container">
+					<div class="burger__line"></div>	
+				</div>
+			</div>
+			<div class="header__logo">
+				<img class="header__logo-img" src="images/logo.png">
+				<div class="header__logo-txt">Ирпень Сервис</div>
+			</div>
+			<ul class="menu">
+				<li class="menu__item"><a href="#main" class="menu__link">Главная</a></li>
+				<li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+				<li class="menu__item"><a href="#articles" class="menu__link">Статьи</a></li>
+				<li class="menu__item"><a href="#consultation" class="menu__link">Контакты</a></li>
+				<li class="menu__item">
+					<div class="menu__contact">
+						<div class="menu__contact-image">
+							<img src="images/phone-receiver.svg" alt="phone">
+						</div>
+						<div class="menu__contact-phone">
+							<a href="tel:+380951516536" class="menu__contact-link">+38(095) 151 6536</a>
+							<div class="menu__contact-time">Мы работаем с 8:00 до 19:00</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</header>
+	<div class="head">
+		<div class="connect-holder">
+			<div class="connection-mob footer-connection">
+				<a href="viber://chat?number=+380951516536" class="connection-mob__link connection-mob__link_violet">
+					<img src="images/viber.svg" alt="viber-logo">
+						Написать
+				</a>
+				<a href="whatsapp://send?phone=+380951516536" class="connection-mob__link connection-mob__link_green">
+						мастеру
+					<img src="images/whatsapp.svg" alt="whatsapp-logo">
+				</a>
+			</div>
+		</div>
+		<div class="header__contact">
+			<div class="header__contact-image">
+				<img src="images/phone-receiver.svg" alt="phone">
+			</div>
+			<div class="header__contact-phone">
+				<a href="tel:+380951516536" class="header__contact-link">+38(095) 151 6536</a>
+				<div class="header__contact-time">Мы работаем с 8:00 до 19:00</div>
+			</div>
+		</div>
+		<div class="header__social">
+			<div class="header__social-text">Написать</div>
+			<a href="viber://chat?number=+380951516536" class="header__social-link">
+				<img src="images/viber.svg" alt="viber-logo">
+			</a>
+			<a href="whatsapp://send?phone=+380951516536" class="header__social-link">
+				<img src="images/whatsapp.svg" alt="whatsapp-logo">
+			</a>
+		</div>
+		<section class="poster" id="main">
+			<h1 class="poster__head">Отремонтируем любую стиральню машину</h1>
+			<p class="poster__description">Работаем ежедневно по городам Ирпень, Буча, Ворзель, Гостомель</p>
+			<div class="skills">
+				<div class="skills__column">
+					<img src="images/tool.svg" alt="tool" class="skills__img">
+					<div class="skills__txt skills__txt_left">
+						Ремонтируем более <span>800</span> машин в год
+					</div>
+				</div>
+				<div class="skills__column">
+					<img src="images/settings-work-tool.svg" alt="settings" class="skills__img">
+					<div class="skills__txt skills__txt_center">
+						В наличии оригинальные запчасти
+					</div>
+				</div>
+				<div class="skills__column">
+					<img src="images/quality.svg" alt="qualities" class="skills__img skills__img_lg">
+					<div class="skills__txt skills__txt_right">
+						Опыт работы более <span>10</span> лет
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+	<section class="service-mobile">
+		<div class="skills-mob">
+			<div class="skills-mob__column">
+				<img src="images/tool.svg" alt="tool" class="skills-mob__img">
+				<div class="skills-mob__txt skills-mob__txt_left">
+					Ремонтируем более <span>800</span> машин в год
+				</div>
+			</div>
+			<div class="skills-mob__column">
+				<img src="images/settings-work-tool.svg" alt="settings" class="skills-mob__img">
+				<div class="skills-mob__txt skills-mob__txt_center">
+					В наличии оригинальные запчасти
+				</div>
+			</div>
+			<div class="skills-mob__column">
+				<img src="images/quality.svg" alt="qualities" class="skills-mob__img skills-mob__img_lg">
+				<div class="skills-mob__txt skills-mob__txt_right">
+					Опыт работы более <span>10</span> лет
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="services" id="services">
+		<h2 class="services__title">Услуги</h2>
+		<p class="services__description">Что делать если сломалась машинка? Сразу звонить нам. Звоните с восьми утра до десяти вечера по телефонам. Мастер будет у вас в ближайшее время, и работаем мы без перерывов, праздников и выходных.</p>
+		<div class="mashines">
+			<div class="mashines__label">Ремонтируем автоматические машинки:</div>
+			<ul class="mashines__list">
+				<li class="mashines__item">
+					<img src="images/check.svg" alt="check" class="mashines__item-img">
+					<div class="mashines__item-text">Отечественные</div>
+				</li>
+				<li class="mashines__item">
+					<img src="images/check.svg" alt="check" class="mashines__item-img">
+					<div class="mashines__item-text">Старые</div>
+				</li>
+				<li class="mashines__item">
+					<img src="images/check.svg" alt="check" class="mashines__item-img">
+					<div class="mashines__item-text">Современные</div>
+				</li>
+				<li class="mashines__item">
+					<img src="images/check.svg" alt="check" class="mashines__item-img">
+					<div class="mashines__item-text">Импортные</div>
+				</li>
+				<li class="mashines__item">
+					<img src="images/check.svg" alt="check" class="mashines__item-img">
+					<div class="mashines__item-text">Полноразмерные</div>
+				</li>
+				<li class="mashines__item">
+					<img src="images/check.svg" alt="check" class="mashines__item-img">
+					<div class="mashines__item-text">Узкие или малогабаритные</div>
+				</li>
+			</ul>
+		</div>
+		<div class="advantages">
+			<ul class="advantages__list">
+				<li class="advantages__item">
+					<img src="images/label.svg" alt="label" class="advantages__item-img">
+					<div class="advantages__item-text">При ремонте мы бесплатно почистим машинку от накипи и запахов</div>
+				</li>
+				<li class="advantages__item">
+					<img src="images/label.svg" alt="label" class="advantages__item-img">
+					<div class="advantages__item-text">Починим в минимальные сроки</div>
+				</li>
+				<li class="advantages__item">
+					<img src="images/label.svg" alt="label" class="advantages__item-img">
+					<div class="advantages__item-text">Для пенсионеров и участников войн у нас скидки!</div>
+				</li>
+			</ul>
+		</div>
+		<div class="connection">
+			<a href="viber://chat?number=+380951516536" class="connection__link connection__link_violet">
+				<img src="images/viber.svg" alt="viber-logo">
+				Написать
+			</a>
+			<a href="whatsapp://send?phone=+380951516536" class="connection__link connection__link_green">
+				мастеру
+				<img src="images/whatsapp.svg" alt="whatsapp-logo">
+			</a>
+		</div>
+	</section>
+	<section class="problems">
+		<h2 class="problems__title">Основные неисправности стиральных машин</h2>
+		<div class="problems__list">
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/cleaning-washing-machine.jpg" alt="cleaning-washing-machine" class="problem__img">
+				</div>
+				<div class="problem__article">
+					<h3 class="problem__title">Не сливает воду</h3>
+					<p class="problem__description">Неисправен датчик уровня воды или клапан подачи воды</p>
+					<ul class="problem__list">
+						<li class="problem__item">Диагностика</li>
+						<li class="problem__item">Замена насоса</li>
+						<li class="problem__item">Чистка фильтра сливного насоса</li>
+						<li class="problem__item">Устранение засора</li>
+						<li class="problem__item">Замена эл. модуля</li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/washing.jpg" alt="washing" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Перестала отжимать вещи</h3>
+						<p class="problem__description">Вероятно не работает насос или модуль управления. Требуется замена.</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Замена шланга</li>
+							<li class="problem__item">Замена патрубка</li>
+							<li class="problem__item">Замена насоса</li>
+							<li class="problem__item">Замена бака</li>
+						</ul>
+					</div>
+				</div>
+			
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/button.jpg" alt="button" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Не грееет воду</h3>
+						<p class="problem__description">Возможно одна из причин: неисправность ТЭНа, неисправность датчика, неисправность электронного модуля</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Замена температурного датчика</li>
+							<li class="problem__item">Замена ТЕНа</li>
+							<li class="problem__item">Замена эл. модуля</li>
+						</ul>
+					</div>
+				
+			</div>
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/problem.jpg" alt="problem" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Периодически протекает</h3>
+						<p class="problem__description">Очень часто протечки воды в стиральной машине связаны с проблемами со шлангами: наливной или сливной шланг</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Замена шланга</li>
+							<li class="problem__item">Замена патрубка</li>
+							<li class="problem__item">Замена насоса</li>
+							<li class="problem__item">Замена бака</li>
+						</ul>
+					</div>
+				</div>
+
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/noize.jpg" alt="noize" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Постоянно шумит</h3>
+						<p class="problem__description">Возможно износился подшипник или нужно достать посторонний предмет</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Регулировка по уровню</li>
+							<li class="problem__item">Замена амортизаторов</li>
+							<li class="problem__item">Замена подшипников</li>
+							<li class="problem__item">Устранение посторонних предметов</li>
+						</ul>
+					</div>
+		
+			</div>
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/water.jpg" alt="water" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Не набирает воду</h3>
+						<p class="problem__description">Возможно износился подшипник или нужно достать посторонний предмет</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Замена датчика уровня воды</li>
+							<li class="problem__item">Замена заливного клапана</li>
+							<li class="problem__item">Чистка фильтра</li>
+							<li class="problem__item">Замена эл. модуля</li>
+						</ul>
+					</div>
+				</div>
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/baraban.jpg" alt="washing-mashine" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Не крутит барабан</h3>
+						<p class="problem__description">Вероятно поломка в оборванном ремне, щетках двигателя или электронном модуле</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Устранение постороннего предмета</li>
+							<li class="problem__item">Замена щеток эл. двигателя</li>
+							<li class="problem__item">Замена ремня  приводного </li>
+							<li class="problem__item">Замена эл. модуля</li>
+						</ul>
+					</div>
+
+			</div>
+			<div class="problem">
+				<div class="problem__picture">
+					<img src="images/on.jpg" alt="washing-mashine" class="problem__img">
+				</div>
+					<div class="problem__article">
+						<h3 class="problem__title">Не включается</h3>
+						<p class="problem__description">Возможно неисправен модуль управления или оборван кабель питания</p>
+						<ul class="problem__list">
+							<li class="problem__item">Диагностика</li>
+							<li class="problem__item">Сняитие блокировки, выход из тестового режима</li>
+							<li class="problem__item">Замена ТЭНа</li>
+							<li class="problem__item">Замена (ремонт) электронного модуля</li>
+							<li class="problem__item">Замена двигателя</li>
+						</ul>
+					</div>
+			
+			</div>
+		</div>
+	</section>
+	<section class="articles" id="articles">
+		<h2 class="articles__title">Статьи</h2>
+		<div class="articles__list">
+			<div class="articles__column">
+				<div class="article">
+					<div class="article__head">
+						<img src="images/lightbulb-idea.svg" alt="light" class="article__img">
+						<h4 class="article__title">Шумит и гудит стиральная машина при отжиме: стучит, вибрирует и прыгает</h4>
+					</div>
+					<div class="article__body">
+						<p class="article__paragraph">Если шумит и гудит стиральная машина при отжиме, значит, пришло время заменять подшипники и сальники. Стоит отметить, что если плюс ко всему ещё и из-под устройства течёт вода, тогда пробит сальник и вода вымыв смазку, вытекает со стороны барабана. Когда техника не только гремит и стучит, а и вибрирует или даже "прыгает", тогда возможно рассыпались или покололись подшипники опоры барабана, но сальник при этом воду держит.</p>
+						<p class="article__paragraph">Бытовая техника - это очень сложные устройства, которые состоят из множества схем, болтов, винтов и других важных деталей, они должны быть исправными и только в этом случае прибор будет исправно стирать и полоскать бельё. Когда мастер поменяет подшипники, стиральная машина не будет шуметь, гудеть или трястись. Причина в поломке этой детали может заключаться, если барабан невозможно провернуть вручную. Устранение поломки помогает наладить вращение данного элемента и бесперебойную работу техники. </p>
+						<p class="article__paragraph">Стоит отметить, что небольшая вибрация при работе этого устройства может наблюдаться, когда происходит отжим, но он должен происходить без сильного шума и гула.</p>
+					</div>
+				</div>
+				<div class="article">
+					<div class="article__head">
+						<img src="images/lightbulb-idea.svg" alt="light" class="article__img">
+						<h4 class="article__title">Почему стиральная машина не отжимает - причины</h4>
+					</div>
+					<div class="article__body">
+						<p class="article__paragraph">Многие владельцы даже самых дорогих моделей стиральных машин задаются таким вопросом: почему стиральная машина не отжимает? Причины могут быть самые разнообразные, например, была случайно, нажата или наоборот не отключена кнопка "отключение отжима". Ещё одна причина, почему плохо отжимает стиральная машина автомат - это включение режима "бережная стирка". Данная программа предусматривает щадящие условия для полоскания белья и поэтому вещи после завершения процесса сохраняют большое количество влаги. Ведь некоторая одежда производится из тонких и нежных материалов, а при полоскании необходимо в данном случае сохранить целостность ткани.</p>
+						<p class="article__paragraph">Возможно, также стиральная машинка перестала отжимать из-за проблем с таходатчиком. Нельзя загружать барабан до отказа, т.к. может выйти из строя устройство, которое производит контроль количества оборотов барабана. В этом случае может ослабнуть винт, которым крепится эта деталь и тогда его придётся регулировать, чтобы наладить работу техники.</p>
+						<p class="article__paragraph">Устройство зависает при отжиме? Это неполадки в электронном модуле. В данном случае необходимо обратиться к профессионалу, который поможет устранить неисправность. Самостоятельно это сделать не получится, т.к. данная техника является устройством со сложными программами и схемами, в которых разберётся только специалист.</p>
+					</div>
+				</div>
+				<div class="article">
+					<div class="article__head">
+						<img src="images/lightbulb-idea.svg" alt="light" class="article__img">
+						<h4 class="article__title">Почему стиральная машина долго стирает?</h4>
+					</div>	
+					<div class="article__body">
+						<p class="article__paragraph">Большинство пользователей задаются вопросом, почему стиральная машина долго стирает и постоянно зависает? Такая проблема может возникать как у недавно подключённой техники, так и у такого оборудования, которое эксплуатируется длительное время. Если агрегат неправильно подключить, тогда вода, которая подаётся, может утекать самосливом в канализацию. Вода утекает, и техника постоянно должна добирать и подогревать её - это может продолжаться бесконечно.</p>
+						<p class="article__paragraph">Также данная проблема может возникать из-за неисправности ТЭНа, нагрев в этом случае будет происходить очень медленно. Стоит отметить, что данный список можно перечислять долго -это засор фильтра, перегиб шланга, повреждение проводки, маленький напор воды, проблемы в электронном модуле и т.д. Если возникает данная проблема, тогда лучше обратиться к профессионалам.</p>
+					</div>
+				</div>
+				<div class="article">
+					<div class="article__head">
+						<img src="images/lightbulb-idea.svg" alt="light" class="article__img">
+						<h4 class="article__title">Почему стиральная машина прыгает - Что делать?</h4>
+					</div>
+					<div class="article__body">
+						<p class="article__paragraph">Многие люди задаются таким вопросом: почему стиральная машина "прыгает" и шумит, и что в этом случае делать? Это может происходить, когда не сняты все винты и распорки, которые нужны для безопасной транспортировки данной техники. Необходимо также правильно устанавливать устройство при помощи уровня, и все четыре ножки должны упираться в пол. Многие специалисты считают, что это может также происходить из-за того, что большие изделия сконцентрировались в одной части барабана.</p>
+						<p class="article__paragraph">При отжиме техника пытается распределить бельё по барабану или другими словами, справиться с дисбалансом белья, и поэтому вибрирует из стороны в сторону. Поэтому не стоит складывать для стирки запутанное бельё, его необходимо расправить и только потом начинать процесс стирки.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="consultation" id="consultation">
+			<div class="consultation__text">Бесcплатная консультация от мастера</div>
+			<div class="consultation__number">
+				<img src="images/phone-white.svg" alt="phone" class="consultation__img">
+				<a href="tel:+380951516536" class="consultation__link">+38(095) 151 6536</a>
+			</div>
+		</div>
+	</section>
+	<section class="brands">
+		<h2 class="brands__title">Бренды  техникик с котрыми мы работаем</h2>
+		<div class="brands__board">
+			<div class="brand">
+				<img src="images/aeg.png" alt="aeg" class="brand__logo">
+				<div class="brand__en">
+					AEG
+				</div>
+				<div class="brand__ru">
+					(АЕГ)
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/ardo.png" alt="ardo" class="brand__logo">
+				<div class="brand__en">
+					ARDO
+				</div>
+				<div class="brand__ru">
+					(АРДО)
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/ariston.png" alt="ariston" class="brand__logo">
+				<div class="brand__en">
+					ARISTON
+				</div>
+				<div class="brand__ru">
+					(АРИСТОН)
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/asko.png" alt="asko" class="brand__logo">
+				<div class="brand__en">
+					ASKO
+				</div>
+				<div class="brand__ru">
+					(АСКО)
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/beko.png" alt="beko" class="brand__logo">
+				<div class="brand__en">
+					BEKO
+				</div>
+				<div class="brand__ru">
+					(БЕКО)
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/bosch.png" alt="bosh" class="brand__logo">
+				<div class="brand__en">
+					BOSH
+				</div>
+				<div class="brand__ru">
+					(БОШ)	
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/brandt.png" alt="brandt" class="brand__logo">
+				<div class="brand__en">
+					BRANDT
+				</div>
+				<div class="brand__ru">
+					(БРАНДТ)			
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/candy.png" alt="candy" class="brand__logo">
+				<div class="brand__en">
+					CANDY
+				</div>
+				<div class="brand__ru">
+					(КАНДИ)				
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/daewoo.png" alt="daewoo" class="brand__logo">
+				<div class="brand__en">
+					DAEWOO
+				</div>
+				<div class="brand__ru">
+					(ДЭУ)				
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/electrolux.png" alt="electrolux" class="brand__logo">
+				<div class="brand__en">
+					ELECROLUX
+				</div>
+				<div class="brand__ru">
+					(ЭЛЕКТРОЛЮКС)											
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/elenberg.png" alt="elenberg" class="brand__logo">
+				<div class="brand__en">
+					ELENBERG
+				</div>
+				<div class="brand__ru">
+					(ЭЛЕНБЕРГ)						
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/gorenie.png" alt="gorenie" class="brand__logo">
+				<div class="brand__en">
+					GORENJE
+				</div>
+				<div class="brand__ru">
+					ГОРЕНЬЕ												
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/hansa.png" alt="hansa" class="brand__logo">
+				<div class="brand__en">
+					HANSA
+				</div>
+				<div class="brand__ru">
+					(ХАНСА)												
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/indesit.png" alt="indesit" class="brand__logo">
+				<div class="brand__en">
+					INDESIT
+				</div>
+				<div class="brand__ru">
+					(ИНДЕЗИТ)					
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/kaiser.png" alt="kaiser" class="brand__logo">
+				<div class="brand__en">
+					KAISER
+				</div>
+				<div class="brand__ru">
+					(КАЙЗЕР)												
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/lg.png" alt="" class="brand__logo">
+				<div class="brand__en">
+					LG
+				</div>
+				<div class="brand__ru">
+					(ЛЖ)												
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/miele.png" alt="miele" class="brand__logo">
+				<div class="brand__en">
+					MIELE
+				</div>
+				<div class="brand__ru">
+					(МИЛЛИ)						
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/philco.png" alt="philco" class="brand__logo">
+				<div class="brand__en">
+					PHILCO
+				</div>
+				<div class="brand__ru">
+					(ФИЛКО)					
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/samsung.png" alt="samsusng" class="brand__logo">
+				<div class="brand__en">
+					SAMSUNG
+				</div>
+				<div class="brand__ru">
+					(САМСУНГ)						
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/siemens.png" alt="siemens" class="brand__logo">
+				<div class="brand__en">
+					SIEMENS
+				</div>
+				<div class="brand__ru">
+					(СИМЕНС)						
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/vestel.png" alt="vestel" class="brand__logo">
+				<div class="brand__en">
+					VESTEL		
+				</div>
+				<div class="brand__ru">
+					(ВЕСТЕЛ)						
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/whirlpool.png" alt="whirpool" class="brand__logo">
+				<div class="brand__en">
+					WHIRPOOL		
+				</div>
+				<div class="brand__ru">
+					(ВИРЛПУЛ)					
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/zanussi.png" alt="zanussi" class="brand__logo">
+				<div class="brand__en">
+					ZANUSSI		
+				</div>
+				<div class="brand__ru">
+					(ЗАНУССИ)						
+				</div>
+			</div>
+			<div class="brand">
+				<img src="images/zerowatt.png" alt="zerowatt" class="brand__logo">
+				<div class="brand__en">
+					ZEROWATT		
+				</div>
+				<div class="brand__ru">
+					(ЗЕРОВАТТ)					
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__copyright">2019 Все права защищены</div>
+			<div class="connection footer-connection">
+				<a href="viber://chat?number=+380951516536" class="connection__link connection__link_violet">
+					<img src="images/viber.svg" alt="viber-logo">
+						Написать
+				</a>
+				<a href="whatsapp://send?phone=+380951516536" class="connection__link connection__link_green">
+						мастеру
+					<img src="images/whatsapp.svg" alt="whatsapp-logo">
+				</a>
+			</div>
+			<div class="footer__contacts">
+				<div class="footer__contacts-geo">
+					<img src="images/placeholder.svg" alt="geo" class="footer__contacts-geoimg">
+					<div class="footer__contacts-place" class="footer__contacts-geotext">ул. Соборная 152, Ирпень</div>
+				</div>
+				<div class="footer__contacts-tel">
+					<img src="images/phone-receiver.svg" alt="phone">
+					<a href="tel:+380951516536">+38(095) 151 6536</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js/main.min.js"></script>
+</body>
+</html>
